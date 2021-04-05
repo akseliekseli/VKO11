@@ -1,0 +1,81 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/Texttitle">
+
+        <EditTextPreference
+            android:id="@+id/fontSize"
+            app:key = "FONT"
+            android:dialogMessage="Font size"
+            android:defaultValue="14"
+            android:summary="@string/fontsize"
+            />
+
+        <EditTextPreference
+            android:id="@+id/Width"
+            app:key = "WIDTH"
+            android:dialogMessage="Textbox Width"
+            android:defaultValue="246"
+            android:summary="@string/width"
+            />
+
+        <EditTextPreference
+            android:id="@+id/Height"
+            app:key = "HEIGHT"
+            android:dialogMessage="Textbox Height"
+            android:defaultValue="70"
+            android:summary="@string/height"
+            />
+
+        <EditTextPreference
+            android:id="@+id/Rowsmin"
+            app:key = "ROWS_MIN"
+            android:dialogMessage="Number of rows minimum"
+            android:defaultValue="1"
+            android:summary="@string/minrow"
+            />
+
+        <EditTextPreference
+            android:id="@+id/Rowsmax"
+            app:key = "ROWS_MAX"
+            android:dialogMessage="Number of rows maximum"
+            android:defaultValue="1"
+            android:summary="@string/maxrow"
+            />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Text Editing">
+
+        <SwitchPreferenceCompat
+            android:id="@+id/changeSwitch"
+            app:key="CHANGETEXT"
+            app:title="@string/textchange" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/disptext">
+
+        <EditTextPreference
+            android:id="@+id/textDisp"
+            app:key = "TEXT"
+            android:defaultValue="@string/defaulttext"
+            android:summary="@string/disptext"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/language">
+
+        <ListPreference
+            android:id="@+id/langu"
+            android:key="language_preference"
+            android:title="@string/language"
+            android:entries="@array/Language"
+            android:entryValues="@array/LanguageCodes"/>
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

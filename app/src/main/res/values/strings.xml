@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VKO11</string>
+    <!-- Settings Activity Title -->
+    <string name="Texttitle">Text</string>
+    <string name="width">Textbox width</string>
+    <string name="height">Textbox height</string>
+    <string name="fontsize">Font size</string>
+    <string name="minrow">Number of rows minimum</string>
+    <string name="maxrow">Number of rows maximum</string>
+    <string name="textchange">Changing the text is allowed</string>
+    <string name="disptext">Display text</string>
+    <string name="defaulttext">This is the default text</string>
+    <string name="language">Language</string>
+
+
+</resources>

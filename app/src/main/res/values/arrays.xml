@@ -1,0 +1,16 @@
+<resources>
+
+    <string-array name="Language">
+        <item>English</item>
+        <item>Suomi</item>
+        <item>Svenska</item>
+
+    </string-array>
+
+    <string-array name="LanguageCodes">
+        <item>en</item>
+        <item>fi</item>
+        <item>swe</item>
+
+    </string-array>
+</resources>

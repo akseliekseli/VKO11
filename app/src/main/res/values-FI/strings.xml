@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VKO11</string>
+    <!-- Settings Activity Title -->
+    <string name="Texttitle">Teksti</string>
+    <string name="width">Tekstikentän leveys</string>
+    <string name="height">Tekstikentän korkeus</string>
+    <string name="fontsize">Fonttikoko</string>
+    <string name="minrow">Rivien minimimäärä</string>
+    <string name="maxrow">Rivien maksimimäärä</string>
+    <string name="textchange">Tekstin muuttaminen on sallittua</string>
+    <string name="disptext">Näytä teksti</string>
+    <string name="defaulttext">Tämä on oletusteksti</string>
+    <string name="language">Kieli</string>
+</resources>
